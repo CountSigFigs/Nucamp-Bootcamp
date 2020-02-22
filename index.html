@@ -28,7 +28,7 @@
                     <h2>a better way to camp</h2>
               </div>
               <div class="col-md-4 col-xl-2">
-                  <a><button data-toggle="modal" data-target="#reserveModal" class="btn btn-info btn-lg">Reserve Campsite</button></a>
+                  <a><button id="reserveButton" class="btn btn-info btn-lg">Reserve Campsite</button></a>
               </div>
             </div>
         </div>
@@ -49,6 +49,7 @@
                             <label for="numOfCampers"class="col-form-label col-sm-6">Number of Campers</label>
                                 <div class="col">
                                     <select id="campers" name="numOfCampers" class="form-control">
+                                        <option selected>Select</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -102,7 +103,7 @@
                     <li class="nav-item"><a class= "nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i>Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal"><i class="fa fa-sign-in"></i>Login</a>
+                    <a role="button" id="loginButton"><i class="fa fa-sign-in"></i>Login</a>
                 </span>
             </div> 
         </div>
@@ -204,7 +205,7 @@
                     <img src="img/breadcrumb-trail-thumb.jpg" class="d-flex mr-3 img-thumbnail" alt="breadcrumb-trail-thumb">
                     <div class="media-body align-self-center">
                         <h3>Our Campsites</h3>
-                        <p class= "d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</pclass= "d-none d-sm-block">
+                        <p class= "d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
                     </div>
                 </div>
             </div>
